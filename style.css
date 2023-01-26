@@ -1,0 +1,16 @@
+.heading{
+    font-size: 40px;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name:exsample;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes exsample{
+    from{box-shadow: 1px 1px 38px blueviolet;}
+    to{box-shadow:1px 1px 38px palevioletred;}
+}
